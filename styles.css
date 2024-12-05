@@ -1,0 +1,15 @@
+audio, video {
+    width: 80%;
+    max-width: 800px; /* Ensures it looks good on larger screens */
+    margin: 20px auto;
+    display: block; /* Ensures no inline behavior that might interfere with layout */
+}
+img{  
+    max-width: 100%;
+     height: auto;
+      width: auto;}
+
+      audio::-webkit-media-controls-timeline {
+        background-color: lightblue;
+        border-radius: 5px; /* Add a slight curve to the edges */
+    }
